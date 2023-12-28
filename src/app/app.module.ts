@@ -15,6 +15,8 @@ import { ApixuService } from './dictionary-web/apixu.service';
 import { RemovePipe } from './dictionary-web/dictionary-web.component';
 import { IPadressComponent } from './ipadress/ipadress.component';
 import { ipService } from './ipadress/ip.service';
+import { GeolocationComponent } from './geolocation/geolocation.component';
+import { ExampleComponent } from './example/example.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +26,8 @@ import { ipService } from './ipadress/ip.service';
     ECommerceComponent,
     DictionaryWebComponent,
     IPadressComponent,
+    GeolocationComponent,
+    ExampleComponent,
   ],
   imports: [
     BrowserModule,
