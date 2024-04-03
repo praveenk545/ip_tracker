@@ -25,9 +25,7 @@ import { DemoMapComponent } from './demo-map/demo-map.component';
     
   ],
   imports: [
-    // AgmCoreModule.forRoot({
-    //   apiKey: 'AIzaSyAFgM81Qz-SwfTzUsr4F51AgDj0HdN88CQ'
-    // }),
+
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
